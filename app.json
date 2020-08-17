@@ -1,4 +1,3 @@
-
 {
   "name": "Zeltrax Group Bot 【★🆉🆁™】",
   "description": "Bot created by Team Zeltrax",
@@ -18,6 +17,14 @@
     },
     "TOKEN": {
       "description": "Your bot token, as a string.",
+      "value": ""
+    },
+    "TL_APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "TL_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
       "value": ""
     },
     "OWNER_ID": {
