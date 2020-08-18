@@ -411,6 +411,17 @@ def stretch(update, context):
 
 
 @run_async
+@typing_action
+def gaali(update, context):
+    reply_text = (
+        update.effective_message.reply_to_message.reply_text
+        if update.effective_message.reply_to_message
+        else update.effective_message.reply_text
+    )
+    reply_text(random.choice(fun.GAALI_DO))
+
+
+@run_async
 def me_too(update, context):
     message = update.effective_message
     reply = random.choice(["Me too thanks", "Haha yes, me too", "Same lol", "Lol Same With Mine"])
@@ -446,6 +457,7 @@ Some dank memes for fun or whatever!
  ● /owo: UwU-fy whole text XD.
  ● /roll: Rolls a dice.
  ● /recite: Logical quotes to change your life.
+ ● /gaali: Logical quotes to change your life.
  ● /stretch:  streeeeeeetch iiiiiiit.
  ● /warm: Hug a user warmly, or get hugged if not a reply.
  ● /punch: Punch a user, or get punched if not a reply.
@@ -487,6 +499,7 @@ MEETOO_HANDLER = DisableAbleMessageHandler(
     Filters.regex(r"(?i)(me too)"), me_too, friendly="metoo"
 )
 RECITE_HANDLER = DisableAbleCommandHandler("recite", recite)
+GAALI_HANDLER = DisableAbleCommandHandler("gaali", gaali)
 DICE_HANDLER = DisableAbleCommandHandler("roll", dice)
 YESNOWTF_HANDLER = DisableAbleCommandHandler("decide", yesnowtf)
 GDMORNING_HANDLER = DisableAbleMessageHandler(
@@ -508,6 +521,7 @@ dispatcher.add_handler(HUG_HANDLER)
 dispatcher.add_handler(GBUN_HANDLER)
 dispatcher.add_handler(TABLE_HANDLER)
 dispatcher.add_handler(RECITE_HANDLER)
+dispatcher.add_handler(GAALI_HANDLER)
 dispatcher.add_handler(CRI_HANDLER)
 dispatcher.add_handler(PASTA_HANDLER)
 dispatcher.add_handler(CLAP_HANDLER)
