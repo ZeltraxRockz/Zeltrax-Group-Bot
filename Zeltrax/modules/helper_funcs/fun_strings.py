@@ -593,3 +593,8 @@ BEING_LOGICAL = (
     "Bermuda Triangle might be the exit portal of this simulation.",
     "If we put solar panels above parking lots, then our cars wouldn't get hot and we would have a lot of clean energy.",
 )
+
+GAALI_DO = (
+"<b>Suar ki aulaad\nTeri maa ki chut\nBetichod\nJaake apni maa behan ko chod\nAur haa agli baar kisiko gaali dene se phele apne BAAP <em>Zeltrax</em> ko yaad rkhna\nwarna hamsab milke teri maa aur behan ko chod denge phir rote rhna baithke..😒😒</b>",
+"<b>Main roz teri behno ki banjar chut me apna lawda daalke andar haryali lata tha\nMagar aaj unke ke baare me sunke mujhe bhut afsos huwa ki unko ab chota loudha chahye\nab mera balatkaaari lawda lagataar 4 ghante tk apne muh me kon rakhega\nvo teri behne hi thi jo apni kaali magar rasili chut mere saamne khol deti\naur zameen pe naagin ki tarah rengne lgti thi jaise ki\nkisine unki chut pe naariyal tod diya ho vo b bada wala mumbai ka naariyal.\nApni chennal maa ko b nhi bhej rahe mere paas to main kaise tum logo se vaada karu ki main teri maa chodd dunga\nAb agar tum sach me chahta hai ki main tum dono ki mc ki chut me dhammal karu to mera lawda apne muh me rakho aur kaho\nZeltrax hamare sage papa hain\nAur agar tb b tjhe apni maa ki kaali chut mere saamne nahi rakhi to tumhare ghar me ghuske tumhari maa ka balatkaar kar dunga\njaise delhi me huwa tha ab teri chudi hui kuttiyo ki tarah\napni gaand hilaate hue mere aage tapakna mt ni to tumhari fatti bhosdi me 100 ched karunga!!😒😒</b>",
+)
